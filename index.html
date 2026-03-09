@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Scissors | Artistry in Every Cut</title>
+    <meta name="description" content="Golden Scissors is a premium destination for discerning clients seeking artisanal hair services.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-scissors"></i></span>
+                <span class="logo-text">GOLDEN<br>SCISSORS</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#about" class="nav-link">Philosophy</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#gallery" class="nav-link">Portfolio</a>
+                <a href="#team" class="nav-link">Curators</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#booking" class="btn btn-outline">Book Now</a>
+            </div>
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <div class="mobile-nav-links">
+            <a href="#about" class="mobile-link">Philosophy</a>
+            <a href="#services" class="mobile-link">Services</a>
+            <a href="#gallery" class="mobile-link">Portfolio</a>
+            <a href="#team" class="mobile-link">Curators</a>
+            <a href="#booking" class="mobile-link btn btn-primary mt-4">Book Appointment</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <img src="assets/hero_salon.png" alt="High-end luxury salon interior" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="animate-up" style="--delay: 0.1s">
+                <span class="hero-tagline">Premium Hair Artistry</span>
+            </div>
+            <h1 class="hero-title animate-up" style="--delay: 0.3s">Precision.<br>Elegance.<br><span class="text-gold">Transformation.</span></h1>
+            <p class="hero-desc animate-up" style="--delay: 0.5s">Experience a masterclass in refined luxury, where every cut, color, and texture is crafted to mirror your inherent elegance.</p>
+            <div class="hero-cta animate-up" style="--delay: 0.7s">
+                <a href="#booking" class="btn btn-primary">Discover Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img-wrap reveal-left">
+                    <img src="assets/about_founder.png" alt="Founder Portrait" class="about-img">
+                    <div class="img-accent"></div>
+                </div>
+                <div class="about-content reveal-right">
+                    <h4 class="section-subtitle">Our Philosophy</h4>
+                    <h2 class="section-title">Redefining the <br>Art of <span class="text-gold">Haircare</span></h2>
+                    <p class="text-muted">Founded on the principle that true style is a quiet confidence, Golden Scissors offers an artisanal approach to hair design. We merge contemporary technique with timeless elegance, crafting looks uniquely suited to your lifestyle.</p>
+                    <p class="text-muted">Every session in our sanctuary is meticulous and unhurried—an indulgent retreat reserved for those who demand unparalleled attention to detail and uncompromised quality.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Years of Mastery</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5k+</span>
+                            <span class="stat-label">Transformations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding" id="services">
+        <div class="container">
+            <div class="section-header text-center reveal-up">
+                <h4 class="section-subtitle">Oue Expertise</h4>
+                <h2 class="section-title">Bespoke <span class="text-gold">Services</span></h2>
+                <p class="text-muted mx-auto" style="max-width: 600px;">Explore our curated selection of treatments and styling options, designed to elevate your aesthetic.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card reveal-up" style="--delay: 0.1s">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-scissors"></i>
+                    </div>
+                    <h3 class="service-title">Precision Shaping</h3>
+                    <p class="service-desc">Sculptural cutting techniques tailored to your bone structure and hair texture for effortless daily style.</p>
+                    <div class="service-meta">
+                        <span class="time"><i class="fa-regular fa-clock"></i> 60 min</span>
+                        <span class="price">From $120</span>
+                    </div>
+                    <a href="#booking" class="service-link">Reserve <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card reveal-up" style="--delay: 0.2s">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-droplet"></i>
+                    </div>
+                    <h3 class="service-title">Artisan Color</h3>
+                    <p class="service-desc">Multi-dimensional balayage, nuanced highlights, and flawless glossing using the finest botanical pigments.</p>
+                    <div class="service-meta">
+                        <span class="time"><i class="fa-regular fa-clock"></i> 180 min</span>
+                        <span class="price">From $250</span>
+                    </div>
+                    <a href="#booking" class="service-link">Reserve <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card reveal-up" style="--delay: 0.3s">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <h3 class="service-title">Restorative Spa</h3>
+                    <p class="service-desc">Restorative caviar masques, keratin fortifying, and deep-scalp exfoliation treatments for pristine health.</p>
+                    <div class="service-meta">
+                        <span class="time"><i class="fa-regular fa-clock"></i> 45 min</span>
+                        <span class="price">From $95</span>
+                    </div>
+                    <a href="#booking" class="service-link">Reserve <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card reveal-up" style="--delay: 0.4s">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3 class="service-title">Event Styling</h3>
+                    <p class="service-desc">Editorial-quality updos, Hollywood waves, and polished blowouts for your most significant moments.</p>
+                    <div class="service-meta">
+                        <span class="time"><i class="fa-regular fa-clock"></i> 90 min</span>
+                        <span class="price">From $150</span>
+                    </div>
+                    <a href="#booking" class="service-link">Reserve <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery / Portfolio Section -->
+    <!-- Using generated images as placeholders -->
+    <section class="gallery section-padding" id="gallery">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <div class="flex-between">
+                    <div>
+                        <h4 class="section-subtitle">Portfolio</h4>
+                        <h2 class="section-title">The <span class="text-gold">Gallery</span></h2>
+                    </div>
+                    <div class="gallery-filters">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="color">Color</button>
+                        <button class="filter-btn" data-filter="cut">Cut</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="masonry-grid gallery-grid">
+                <!-- Assuming gallery 1,2,3 failed, we'll reuse about_founder and hero_salon creatively -->
+                <div class="gallery-item reveal-up" data-category="color">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/about_founder.png" alt="Gallery Image 1" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="gallery-label">Sun-kissed Balayage</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item reveal-up" data-category="cut">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/hero_salon.png" alt="Gallery Image 2" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="gallery-label">Geometric Bob</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item reveal-up" data-category="color">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/about_founder.png" alt="Gallery Image 3" class="gallery-img" style="filter: grayscale(40%) sepia(20%)">
+                        <div class="gallery-overlay">
+                            <span class="gallery-label">Rich Brunette Gloss</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item reveal-up" data-category="cut">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/hero_salon.png" alt="Gallery Image 4" class="gallery-img" style="transform: scaleX(-1);">
+                        <div class="gallery-overlay">
+                            <span class="gallery-label">Textured Layers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials section-padding" id="testimonials">
+        <div class="container">
+            <div class="testimonial-wrapper reveal-up">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <div class="testimonial-slider" id="testimonialSlider">
+                    <div class="testimonial-slide active">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="quote-text">"An absolute sanctuary in the city. The level of detail and genuine artistry applied to my color transformation was unparalleled. It feels less like an appointment and more like an experience."</p>
+                        <div class="quote-author">
+                            <h5 class="author-name">Eleanor Vance</h5>
+                            <span class="author-title">Executive Director</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="quote-text">"Finding Golden Scissors changed my relationship with my hair. Their sculptural cuts hold shape for weeks on end, and their dedication to healthy hair over quick fixes is why I will never go anywhere else."</p>
+                        <div class="quote-author">
+                            <h5 class="author-name">Sophia Sterling</h5>
+                            <span class="author-title">Architect</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn prev-btn"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="slider-btn next-btn"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking section-padding" id="booking">
+        <div class="container">
+            <div class="booking-container reveal-up">
+                <div class="booking-content">
+                    <h2 class="section-title">Reserve Your <span class="text-gold">Experience</span></h2>
+                    <p class="text-muted">Secure your time in our chair. Please allow up to 24 hours for confirmation of bespoke services requiring extensive consultation.</p>
+                    
+                    <ul class="contact-info-list">
+                        <li><i class="fa-solid fa-location-dot"></i> 450 Luxury Ave, Suite 200, Metropolis</li>
+                        <li><i class="fa-solid fa-phone"></i> +1 (555) 019-9238</li>
+                        <li><i class="fa-solid fa-envelope"></i> concierge@goldenscissors.com</li>
+                    </ul>
+                </div>
+                <div class="booking-form-wrap">
+                    <form class="booking-form" id="bookingForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required placeholder="Jane Doe">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" required placeholder="jane@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" required placeholder="(555) 000-0000">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Select Service</label>
+                            <div class="custom-select-wrapper">
+                                <select id="service" required>
+                                    <option value="" disabled selected>Choose an expertise...</option>
+                                    <option value="cut">Precision Shaping</option>
+                                    <option value="color">Artisan Color</option>
+                                    <option value="spa">Restorative Spa</option>
+                                    <option value="event">Event Styling</option>
+                                    <option value="consult">Consultation</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Preferred Date</label>
+                                <input type="date" id="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Preferred Time</label>
+                                <input type="time" id="time" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Confirm Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo footer-logo">
+                        <span class="logo-icon"><i class="fa-solid fa-scissors"></i></span>
+                        <span class="logo-text">GOLDEN<br>SCISSORS</span>
+                    </a>
+                    <p class="footer-desc">A sanctuary of refined luxury and artisanal hair design, committed to timeless excellence.</p>
+                </div>
+                <div class="footer-links">
+                    <h5 class="footer-title">Explore</h5>
+                    <ul>
+                        <li><a href="#about">Our Philosophy</a></li>
+                        <li><a href="#services">Services Menu</a></li>
+                        <li><a href="#gallery">Portfolio</a></li>
+                        <li><a href="#team">Curators</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h5 class="footer-title">Connect</h5>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">TikTok</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h5 class="footer-title">The Inner Circle</h5>
+                    <p class="footer-desc">Subscribe for exclusive insights, curated trends, and private event invitations.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email Address" required>
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Golden Scissors. All Rights Reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <i class="fa-solid fa-check-circle"></i>
+        <span>Your request has been sent successfully.</span>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
